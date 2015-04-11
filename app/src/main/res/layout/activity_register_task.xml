@@ -1,0 +1,49 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="300dp"
+        android:orientation="vertical"
+        android:layout_height="300dp"
+        android:layout_margin="15dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:inputType="textMultiLine"
+            android:gravity="top|left"
+            android:background="@drawable/border"
+            android:id="@+id/descriptionTextBox"
+            android:hint="Describe what you need" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/TextViewTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set your budget: "
+            android:textSize="10pt">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="numberSigned"
+            android:background="@drawable/border"
+            android:id="@+id/amountTextBox"/>
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/ButtonSendFeedback"
+            android:layout_height="wrap_content"
+            android:text="Find a provider!"
+            android:layout_width="fill_parent"
+            android:textColor="#ffffffff"
+            android:background="#ffe67e22">
+        </Button>
+</LinearLayout>
